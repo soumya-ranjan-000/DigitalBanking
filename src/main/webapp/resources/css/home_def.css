@@ -1,0 +1,17 @@
+   table{
+            width: 50vw;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        th{
+            font-size: 20px;
+            color: rgb(0, 102, 197);
+        }
+        tr th p{
+            color: rgb(17, 206, 0);
+            font-weight: bold;
+        }
+        td,th{
+            padding: 10px;
+        }

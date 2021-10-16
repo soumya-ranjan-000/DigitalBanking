@@ -1,0 +1,76 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.sav_container{
+   padding: 3%;
+}
+
+#ErrorMsg{
+    color: rgb(255, 0, 51);
+    font-size: 20px;
+    background-color: rgba(189, 187, 187, 0.459);
+    padding: 2px 2px;
+    width: 200px;
+    text-align: center;
+    margin: 15px 0;
+    border-radius: 2px;
+}
+.hide{
+    display: none;
+}
+input{
+    margin: 5px;
+
+}
+button{
+    margin: 10px 0;
+    padding: 5px;
+}
+form{
+    margin: 10px;
+}
+label{
+    padding: 5px;
+   color: rgb(8, 25, 255);
+}
+thead th{
+    padding: 50px 0;
+    color: rgb(0, 179, 0);
+    font-size: 30px;
+}
+
+#plantab{
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#plantab p{
+    font-size: 30px;
+}
+
+#plantab table{
+    padding: 0;
+    border: 2px solid burlywood;
+}
+#plantab thead th{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background-color: burlywood;
+}
+#plantab tr td{
+    padding: 5px;
+}
+#plantab table tbody tr{
+    padding: 10px;
+}
+
+.plan_hide *{
+   display: none;
+
+}

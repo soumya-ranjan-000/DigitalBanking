@@ -1,0 +1,41 @@
+.header{
+            display: grid;
+            width: 100vw;
+            grid-template-columns: 80% 20%;
+            background-color: rgb(218, 255, 8);
+        }
+        .c1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(10, 126, 0);
+        }
+        .c1 h1{
+            text-align: center;
+            font-size:30px;
+        }
+        .c2{
+            padding: 5px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .c2 button{
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: rgb(222, 55, 255);
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+            border: none;
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+        }
+        .c2 button:active{
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+            transform: translate(-1px,1px);
+        }
+        .c2 p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
